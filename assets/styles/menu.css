@@ -1,0 +1,39 @@
+.menu {
+	display: none;
+  height: auto;
+  min-height: 100%;
+
+	list-style: none;
+	align-items: center;
+	gap: 20px;
+}
+
+.menu--open {
+	display: block;
+}
+
+
+.menu__link {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+}
+
+.menu__text {
+
+	color: #393C41;
+	letter-spacing: 0.04px;
+	font-size: 15px;
+	font-weight: 600;
+
+	text-transform: uppercase;
+}
+
+
+@media (width >= 1200px) {
+
+.menu {
+	display: flex;
+}
+}

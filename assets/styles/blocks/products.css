@@ -1,0 +1,143 @@
+.products {
+  background: rgb(248,247,255);
+  background: linear-gradient(90deg, rgba(248,247,255,1) 0%, rgba(250,250,255,1) 100%);
+}
+
+
+.products__container {
+	width: 1400px;
+	margin: 0 auto;
+	padding: 56px 15px;
+}
+
+.products__wrapper {
+	display: flex;
+	gap: 30px;
+}
+
+.products__info {
+	width: 650px;
+}
+
+.products__title {
+  color: #A8A8B2;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0.03px;
+	margin-bottom: 32px;
+}
+
+.products__img img {
+	width: 400px;
+	height: 420px;
+}
+
+
+.products__subtitile {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 34px;
+	letter-spacing: 0.04px;
+	color: #1D1D1F;
+}
+
+.products__desc {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.03px;
+	color: #353538;
+}
+
+.products h4 {
+  color: #353538;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.04px;
+}
+
+.products__list {
+	color: #606066;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.03px;
+}
+
+
+
+.swiper .products__arrows {
+  background-color: white;
+  z-index: 9;
+  width: 115px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.products__arrows {
+  margin-left: auto;
+  .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #434272;
+    border-radius: 8px;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .products__prev {
+      background-color: #ffffff;
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      left: 15px;
+      border: 1px solid #434272;
+      border-right-color: #434272;
+      border-top-color: #434272;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(-135deg);
+    }
+  }
+}
+
+.products__arrows {
+  .swiper-button-next {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #434272;
+    border-radius: 8px;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+    .products__next {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      right: 15px;
+      border: 1px solid #434272;
+      border-right-color: #434272;
+      border-top-color: #434272;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+
+.swiper-button-prev:after {
+  content: "" !important;
+}
+
+.swiper-button-next:after {
+  content: "" !important;
+}
+

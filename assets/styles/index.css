@@ -1,0 +1,10 @@
+@import url('./normalize.css');
+@import url('./font.css');
+@import url('./base.css');
+@import url('./blocks/header.css');
+@import url('./blocks/hello.css');
+@import url('./blocks/about.css');
+@import url('./blocks/competencies.css');
+@import url('./blocks/products.css');
+@import url('./blocks/footer.css');
+
