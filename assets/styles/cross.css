@@ -1,0 +1,40 @@
+.cross {
+  cursor: pointer;
+  padding-left: 1.25em;
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.cross__global {
+  backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 2px solid #0F172A;
+  width: 100%;
+  transition: 0.3s;
+}
+.cross__top {
+  top: 0;
+}
+.cross__middle {
+  top: 6px;
+}
+.cross__bottom {
+  top: 12px;
+}
+.cross__top--click {
+  backface-visibility: hidden;
+  top: 6px;
+  transform: rotate(50deg);
+  transition: 0.3s;
+}
+.cross__middle--click {
+  opacity: 0;
+}
+.cross__bottom--click {
+  backface-visibility: hidden;
+  top: 6px;
+  transform: rotate(-410deg);
+  transition: 0.3s;
+}

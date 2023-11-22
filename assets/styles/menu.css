@@ -1,17 +1,25 @@
 .menu {
 	display: none;
   height: auto;
-  min-height: 100%;
-
 	list-style: none;
 	align-items: center;
-	gap: 20px;
+	gap: 30px;
 }
 
 .menu--open {
 	display: block;
+	position: absolute;
+	left: 0;
+	top: 61px;
+	right: 0;
+	z-index: 10;
+	background-color: #ffffff;
+	padding: 15px;
 }
 
+.menu__item {
+	margin-bottom: 12px;
+}
 
 .menu__link {
 	display: flex;
@@ -21,19 +29,25 @@
 }
 
 .menu__text {
-
 	color: #393C41;
 	letter-spacing: 0.04px;
 	font-size: 15px;
 	font-weight: 600;
-
 	text-transform: uppercase;
 }
 
+@media (width >= 768px) {
+  .menu {
+	  display: flex;
+  }
 
-@media (width >= 1200px) {
-
-.menu {
-	display: flex;
+  .menu--open {
+	  display: none;
+  }
 }
+
+@media (width >= 990px) {
+  .menu {
+	  padding-left: 80px;
+  }
 }
