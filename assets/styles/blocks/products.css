@@ -80,7 +80,7 @@
   .swiper-button-prev {
     width: 40px;
     height: 40px;
-    border: 1px solid #434272;
+    border: 2px solid #434272;
     border-radius: 8px;
     opacity: 0.6;
 
@@ -91,10 +91,11 @@
     .products__prev {
       background-color: #ffffff;
       position: absolute;
-      width: 12px;
-      height: 12px;
+      width: 8px;
+      height: 8px;
       left: 15px;
-      border: 1px solid #434272;
+      border: 2px solid #434272;
+			border-radius: 2px;
       border-right-color: #434272;
       border-top-color: #434272;
       border-bottom-color: transparent;
@@ -109,7 +110,7 @@
     background-color: #ffffff;
     width: 40px;
     height: 40px;
-    border: 1px solid #434272;
+    border: 2px solid #434272;
     border-radius: 8px;
     opacity: 0.6;
 
@@ -118,10 +119,11 @@
     }
     .products__next {
       position: absolute;
-      width: 12px;
-      height: 12px;
+      width: 8px;
+      height: 8px;
       right: 15px;
-      border: 1px solid #434272;
+      border: 2px solid #434272;
+			border-radius: 2px;
       border-right-color: #434272;
       border-top-color: #434272;
       border-bottom-color: transparent;
