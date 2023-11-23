@@ -2,6 +2,9 @@
 	width: 100%;
 	padding: 20px 15px 40px 15px;
 	position: relative;
+	background-image: url('../../images/hello-slider/Vector.svg');
+	background-size: cover;
+  background-position-x: right;
 }
 
 .header__nav {
@@ -82,55 +85,54 @@
 	.hello__img {
 		display: block;
 	}
+
 }
 
 @media (width >= 1200px) {
+  .hello__container {
+	  max-width: 1200px;
+	  margin: 0 auto;
+		padding-bottom: 95px;
+	  background-size: contain;
+  }
 
-.hello__container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
+  .hello__info {
+    margin-right: 100px;
+  }
 
-.hello__info {
-  margin-right: 100px;
-}
+  .hello__title {
+	  font-size: 26px;
+	  line-height: 36px;
+	  max-width: 540px;
+  }
 
-.hello__title {
-	font-size: 26px;
-	line-height: 36px;
-	max-width: 540px;
-}
+  .hello__desc {
+	  font-weight: 400;
+	  font-size: 16px;
+	  line-height: 24px;
+	  letter-spacing: 0.3px;
+	  margin-bottom: 40px;
+	  max-width: 540px;
+  }
 
-.hello__desc {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.3px;
-	margin-bottom: 40px;
-	max-width: 540px;
-}
+  .hello__btn {
+	  font-size: 15px;
+	  max-width: 250px;
+  }
 
+  .hello__controls {
+	  bottom: 0;
+	  max-width: 500px;
+  }
 
-.hello__btn {
-	font-size: 15px;
-	max-width: 250px;
-}
-
-
-.hello__controls {
-	bottom: 0;
-	max-width: 500px;
-}
-
-.hello .hello__control {
-	width: 93px !important;
-	height: 4px;
-	border-radius: 6px;
-	border: none;
-	outline: none;
-	background-color: #E5DAFB;
-	margin-right: 10px;
-	cursor: pointer;
-}
-
+  .hello .hello__control {
+	  width: 93px !important;
+	  height: 4px;
+	  border-radius: 6px;
+	  border: none;
+	  outline: none;
+	  background-color: #E5DAFB;
+	  margin-right: 10px;
+	  cursor: pointer;
+  }
 }

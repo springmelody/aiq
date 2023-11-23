@@ -48,6 +48,13 @@
 
 @media (width >= 990px) {
   .menu {
-	  padding-left: 80px;
+	  padding-left: 97px;
+  }
+}
+
+
+@media (width >= 1200px) {
+  .menu {
+	  gap: 63px;
   }
 }

@@ -14,24 +14,30 @@
   width: 100%;
   transition: 0.3s;
 }
+
 .cross__top {
   top: 0;
 }
+
 .cross__middle {
   top: 6px;
 }
+
 .cross__bottom {
   top: 12px;
 }
+
 .cross__top--click {
   backface-visibility: hidden;
   top: 6px;
   transform: rotate(50deg);
   transition: 0.3s;
 }
+
 .cross__middle--click {
   opacity: 0;
 }
+
 .cross__bottom--click {
   backface-visibility: hidden;
   top: 6px;

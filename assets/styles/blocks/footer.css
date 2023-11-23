@@ -5,6 +5,10 @@
 .footer__container {
 	width: 100%;
 	padding: 20px 15px 30px;
+	background-image: url('../../images/hello-slider/Vector.svg');
+	background-repeat: no-repeat;
+  background-position: center;
+	background-size: cover;
 }
 
 
@@ -50,20 +54,24 @@
 
 
 @media (width >= 1200px) {
-.footer__container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
+  .footer__container {
+	  max-width: 1200px;
+	  margin: 0 auto;
+		padding-top: 56px;
+		padding-bottom: 51px;
+  }
 
-.footer__top {
-	display: flex;
-	gap: 170px;
-	flex-direction: row;
-	margin-bottom: 40px;
-}
+  .footer__top {
+	  display: flex;
+	  gap: 170px;
+	  flex-direction: row;
+	  margin-bottom: 48px;
+  }
+
   .footer__wrapper h2 {
     font-weight: 600;
     font-size: 18px;
+		margin-bottom: 20px;
   }
 
   .footer__wrapper span {
