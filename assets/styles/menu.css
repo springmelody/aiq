@@ -4,6 +4,7 @@
 	list-style: none;
 	align-items: center;
 	gap: 30px;
+	margin: 0;
 }
 
 .menu--open {
@@ -14,11 +15,7 @@
 	right: 0;
 	z-index: 10;
 	background-color: #ffffff;
-	padding: 15px;
-}
-
-.menu__item {
-	margin-bottom: 12px;
+	padding: 10px 0 10px;
 }
 
 .menu__link {
@@ -26,6 +23,7 @@
 	align-items: center;
 	gap: 10px;
 	text-decoration: none;
+	padding: 15px;
 }
 
 .menu__text {
@@ -38,11 +36,13 @@
 
 @media (width >= 768px) {
   .menu {
-	  display: flex;
+	  display: flex !important;
+		position: static;
   }
 
   .menu--open {
 	  display: none;
+		padding: 0;
   }
 }
 
