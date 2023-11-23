@@ -4,6 +4,7 @@
 	position: relative;
 	background-image: url('../../images/hello-slider/Vector.svg');
 	background-size: cover;
+	background-repeat: no-repeat;
   background-position-x: right;
 }
 
