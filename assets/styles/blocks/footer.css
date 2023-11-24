@@ -19,6 +19,10 @@
 	text-decoration: none;
 }
 
+.footer__tel {
+	margin-bottom: 8px;
+}
+
 .footer__mail span {
 	display: inline-block;
 	text-decoration: underline;
