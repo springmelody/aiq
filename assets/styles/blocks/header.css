@@ -3,6 +3,13 @@
 
 .header {
   border-bottom: 1px solid #E6E8F5;
+	background-color: #ffffff;
+	position: fixed;
+  top: 0;
+  z-index: 2;
+  left: 0;
+  right: 0;
+	height: 72px;
 }
 
 .header__container {
