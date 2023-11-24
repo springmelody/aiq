@@ -4,44 +4,20 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="assets/styles/index.css">
-	<title>AIQ - создание и развитие экосистемных ИТ решений  для медицинских и фармакологических компаний</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<link rel="stylesheet" href="assets/styles/index.css">
+	<title>Document</title>
 </head>
 
 <body>
 	<header class="header">
 		<div class="header__container">
-			<nav class="header__nav">
+			<nav class="header__nav nav">
 				<a href="/" class="header__logo"><img src="assets/images/header/logo-header.svg" alt="Логотип"></a>
-				<a class="header__mail" href="mailto:support@ai-q.ru">e-mail: <span>support@ai-q.ru</span></a>
-				<div class="header__open cross">
-					<span class="cross__global cross__top"></span>
-					<span class="cross__global cross__middle"></span>
-					<span class="cross__global cross__bottom"></span>
-				</div>
-				<ul class="header__list menu">
-					<li class="menu__item">
-						<a href="#about" class="menu__link">
-							<img class="menu__img" src="assets/images/header/about.svg" alt="О компании">
-							<span class="menu__text">О компании</span>
-						</a>
-					</li>
-					<li class="menu__item">
-						<a href="#products" class="menu__link">
-							<img class="menu__img" src="assets/images/header/products.svg" alt="Продукты">
-							<span class="menu__text">Продукты</span>
-						</a>
-					</li>
-					<li class="menu__item">
-						<a href="#contacts" class="menu__link">
-							<img class="menu__img" src="assets/images/header/contacts.svg" alt="Контакты">
-							<span class="menu__text">Контакты</span>
-						</a>
-					</li>
+				<ul>
+					<li><a href="">О компании</a></li>
+					<li><a href="">Продукты</a></li>
+					<li><a href="">Контакты</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -49,34 +25,55 @@
 	<main class="main">
 
 		<section class="hello">
+
+			<div class="swiper vote__slider">
+				<div class="vote__arrows">
+					<div class="swiper-button-prev">
+						<div class="vote__prev"></div>
+					</div>
+
+					<div class="swiper-button-next">
+						<div class="vote__next"></div>
+					</div>
+				</div>
+				<div class="swiper-wrapper"></div>
+			</div>
+
 			<div class="hello__container">
-				<div class="swiper hello__slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="hello__slide">
-								<div class="hello__info">
-									<h1 class="hello__title"></h1>
-									<h1 class="hello__title">AIQ - создание и развитие экосистемных ИТ решений  для медицинских и
-										фармакологических компаний</h1>
-									<p class="hello__desc">
-										Полный цикл разработки программного обеспечения - это создание корпоративных приложений,
-										соответствующих конкретным рабочим процессам компании клиента. Мы фокусируемся на уникальных
-										задачах, с которыми сталкивается ваш бизнес, и предлагаем масштабируемые и гибкие решения.
-									</p>
-									<a class="hello__btn" href="#contacts">Заказать разработку
-										<img src="assets/images/hello-slider/code.svg" alt="">
-									</a>
-								</div>
-								<div class="hello__img"><img src="assets/images/hello-slider/slide.png" alt=""></div>
-							</div>
+				<div class="swiper">
+
+					<div class="vote__arrows">
+						<div class="swiper-button-prev">
+							<div class="vote__prev"></div>
 						</div>
 
+						<div class="swiper-button-next">
+							<div class="vote__next"></div>
+						</div>
 					</div>
+					<div class="swiper-wrapper"></div>
+				</div>
+				<div class="hello__info">
+					<h1 class="hello__title">AIQ - создание и развитие экосистемных ИТ решений  для медицинских и
+						фармакологических
+						компаний</h1>
+					<p class="hello__desc">
+						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+						praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+						occaecati  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+						voluptatum deleniti atque corrupti quos
+					</p>
+					<a class="hello__btn" href="/">Заказать разработку</a>
+				</div>
+				<div class="hello__img"><img src="assets/images/hello-slider/Frame.jpg" alt=""></div>
+
+				<div thumbsSlider="" class="swiper">
+					<div class="swiper-wrapper" id="hello-controls"></div>
 				</div>
 			</div>
 		</section>
 
-		<section id="about" class="about">
+		<section class="about">
 			<div class="about__container">
 
 				<h1 class="about__title">О компании</h1>
@@ -159,9 +156,9 @@
 					</div>
 					<div class="competencies__col">
 						<div class="competencies__item">
+							<div class="competencies__img"><img src="../aiq-html/assets/images/competencies/3.svg" alt=""></div>
+							<p class="competencies__desc">Развитие экосистемных цифровых решений</p>
 						</div>
-						<div class="competencies__img"><img src="./assets/images/competencies/3.svg" alt=""></div>
-						<p class="competencies__desc">Развитие экосистемных цифровых решений</p>
 					</div>
 					<div class="competencies__col">
 						<div class="competencies__item">
@@ -197,40 +194,34 @@
 			</div>
 		</section>
 
-		<section id="products" class="products">
+		<section class="products">
 			<div class="products__container">
 				<h2 class="products__title">Продукты</h2>
-				<div class="swiper products__slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="products__wrapper">
-								<div class="products__img">
-									<img src="assets/images/products-slider/slide1.png" alt="Слайд">
-								</div>
-								<div class="products__info">
-									<h3 class="products__subtitle">Сервис адаптивного интерактивного обучения Акнауцер</h3>
-									<p class="products__desc">
-										Позволяет создать единый контур сервисов для обеспечения образовательных потребностей и прохождения
-										периодической аккредитации медицинских и фармацевтических специалистов.
-									</p>
-									<h4>Синхронное и асинхронное обучение в рамках одного курса:</h4>
-									<ul class="products__list">
-										<li>Возможность смешанного формата обучения</li>
-										<li>Добавление видео-файлов и роликов с публичных платформ
-										<li>Вебинары</li>
-										<li>Автоматическая проверка ответов</li>
-										<li>Свободные ответы с проверкой преподавателя</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+				<div class="products__wrapper">
+					<div class="products__img">
+						<img src="assets/images/products-slider/slide1.png" alt="">
+					</div>
+					<div class="products__info">
+						<h3 class="products__subtitle">Сервис адаптивного интерактивного обучения Акнауцер</h3>
+						<p class="products__desc">
+							Позволяет создать единый контур сервисов для обеспечения образовательных
+							потребностей и прохождения периодической аккредитации медицинских и фармацевтических специалистов.
+						</p>
+						<h4>Синхронное и асинхронное обучение в рамках одного курса:</h4>
+						<ul class="products__list">
+							<li>Возможность смешанного формата обучения</li>
+							<li>Добавление видео-файлов и роликов с публичных платформ
+							<li>Вебинары</li>
+							<li>Автоматическая проверка ответов</li>
+							<li>Свободные ответы с проверкой преподавателя</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</section>
 
 	</main>
-	<footer id="contacts" class="footer">
+	<footer class="footer">
 		<div class="footer__container">
 			<div class="footer__top">
 				<div class="footer__wrapper">
@@ -241,14 +232,8 @@
 					<span>КПП 772401001</span>
 				</div>
 				<div class="footer__wrapper">
-					<div class="footer__col">
-						<h2>Юридический адрес</h2>
-						<span>115516, город Москва, ул Бехтерева, д. 41 к. 2, кв. 220</span>
-					</div>
-					<h2>Наши контакты</h2>
-
-					<a class="footer__mail footer__tel" href="tel:+79014275570">tel: <span>+79014275570</span></a>
-					<a class="footer__mail" href="mailto:support@ai-q.ru">e-mail: <span>support@ai-q.ru</span></a>
+					<h2>Юридический адрес</h2>
+					<span>115516, город Москва, ул Бехтерева, д. 41 к. 2, кв. 220</span>
 				</div>
 			</div>
 			<div class="footer__bottom">
@@ -257,7 +242,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<script src="index.js"></script>
 </body>
 

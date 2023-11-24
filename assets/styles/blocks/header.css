@@ -1,64 +1,30 @@
-@import url('../menu.css');
-@import url('../cross.css');
-
 .header {
   border-bottom: 1px solid #E6E8F5;
-	background-color: #ffffff;
-	position: fixed;
-  top: 0;
-  z-index: 2;
-  left: 0;
-  right: 0;
-	height: 72px;
 }
-
 .header__container {
-	width: 100%;
+	width: 1400px;
+	margin: 0 auto;
 	padding: 12px 15px;
 }
 
-.header__nav {
-	margin: 0;
+.nav {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 }
 
-.header__mail {
+.nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.nav a {
+	display: block;
 	color: #393C41;
-	font-weight: 400;
-	font-size: 13px;
+	letter-spacing: 0.04px;
+	font-size: 15px;
+	font-weight: 600;
 	text-decoration: none;
-}
-
-.header__mail span {
-	display: inline-block;
-	text-decoration: underline;
-}
-
-@media (width >= 768px) {
-  .header__open {
-	  display: none;
-  }
-
-	.header__mail {
-		display: none;
-	}
-
-  .header__nav {
-	  align-items: center;
-	  justify-content: flex-start;
-  }
-}
-
-@media (width >= 1200px) {
-  .header__container {
-	  max-width: 1200px;
-	  margin: 0 auto;
-  }
-
-  .header__nav {
-	  align-items: center;
-	  justify-content: flex-start;
-  }
+	text-transform: uppercase;
 }

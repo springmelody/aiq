@@ -4,28 +4,28 @@
 }
 
 .about__container {
-	width: 100%;
-	padding: 20px 15px 15px;
+	width: 1400px;
+	margin: 0 auto;
+	padding: 56px 15px;
 }
 
 .about__wrapper {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 .about__title {
   color: #A8A8B2;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 0.03px;
-	margin: 0;
 	margin-bottom: 32px;
-	text-transform: uppercase;
 }
 
 .about__item {
-	width: 50%;
-	margin-bottom: 20px;
+	width: 33.33%;
+	margin-bottom: 40px;
 	padding: 0 20px 20px 0;
 }
 
@@ -35,8 +35,8 @@
 }
 
 .about__img {
-  width: 42px;
-  height: 42px;
+  width: 72px;
+  height: 72px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,15 +45,10 @@
   background: linear-gradient(90deg, rgba(143,97,230,1) 0%, rgba(103,62,190,1) 100%);
 }
 
-.about__img img {
-	width: 18px;
-	height: 18px;
-}
-
 .about__number {
 	color: #353538;
 	font-weight: 500;
-	font-size: 21px;
+	font-size: 54px;
 	letter-spacing: 0.04px;
 	padding-left: 16px;
 }
@@ -61,97 +56,13 @@
 .about__number span {
   color: #909099;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 40px;
 	padding-left: 5px;
 }
 
 .about__desc {
 	color: #353538;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0.04px;
-}
-
-@media (width >= 768px) {
-  .about__item {
-	  width: 33.33%;
-  }
-
-  .about__img {
-    width: 52px;
-    height: 52px;
-  }
-
-  .about__img img {
-	  width: 21px;
-	  height: 21px;
-  }
-
-  .about__number {
-	  font-size: 26px;
-  }
-
-  .about__number span {
-    color: #909099;
-	  font-size: 24px;
-  }
-}
-
-
-@media (width >= 920px) {
-  .about__img {
-    width: 62px;
-    height: 62px;
-  }
-
-  .about__img img {
-	  width: 30px;
-	  height: 30px;
-  }
-
-  .about__number {
-	  font-size: 32px;
-  }
-
-  .about__number span {
-	  font-size: 28px;
-  }
-}
-
-
-@media (width >= 1200px) {
-  .about__container {
-	  max-width: 1200px;
-	  margin: 0 auto;
-		padding: 56px 15px 0;
-  }
-
-	.about__title {
-		font-size: 22px;
-		line-height: 24px;
-	}
-
-  .about__item {
-	  width: 33.33%;
-	  margin-bottom: 40px;
-	  padding: 0 20px 20px 0;
-  }
-
-  .about__img {
-    width: 72px;
-    height: 72px;
-  }
-
-  .about__number {
-	  font-size: 54px;
-  }
-
-  .about__number span {
-	  font-size: 40px;
-  }
-
-  .about__desc {
-	  font-size: 18px;
-		margin-top: 27px;
-  }
 }
